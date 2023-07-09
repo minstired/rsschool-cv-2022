@@ -20,6 +20,55 @@
             </div>
         </header>
         <main>
+            <nav class="container-fluid py-5">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">My skills</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Code examples</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Contacts</button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <ul class="p-5">
+                            <li>Education: 2021 - present: Computer Science Bachelor's degree at SPbSUT (Saint-Petersburg, Russia)</li>
+                            <li>Languages: Russian(native), English(upper-intermediate, B2), Korean(begginer, 2-3급)</li>
+                            <li>Courses: freeCodeCamp (certificate), the Odin project</li>
+                            <br>
+                            <li>Programming languages: JavaScript, C++(basics), Python(basics)</li>
+                            <li>Web development technologies: HTML, CSS, Sass, Bootstrap</li>
+                            <li>Software engineering principles: OOP, SOLID design patterns, Git</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <div class="container p-5">
+                            <p>Projects: </p>
+                        <ul>
+                            <li><a href="https://github.com/minstired/rsschool-cv">CV</a></li>
+                        </ul>
+                        <p>Code example: </p>
+                        <code class="ps-5"> multiply = function (a,b) {return a * b; }</code>
+                        </div>
+                
+                    </div>
+                    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+                        <div class="container d-md-flex ">
+                            <img class="me-5"src="https://i.pinimg.com/originals/55/ca/bc/55cabca7a308db8a322d438efc19ee46.png" alt="avatar" width="300px">
+                            <ul class="pt-5 ps-5">
+                                <li>Email: ekaterinashakirovaa@mail.ru</li>
+                                <li>Telegram: @mekatem</li>
+                                <li>Discord: @minstired</li>
+                                <li>GitHub: @minstired</li>
+                            </ul> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </nav>
         </main>
         <footer>
         </footer>
